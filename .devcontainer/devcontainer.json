@@ -1,6 +1,6 @@
 {
     "name": "test",
-    "dockerComposeFile": "./docker-compose.yml",
+    "dockerComposeFile": "./docker-compose.yaml",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     "service": "nginx"
   }
