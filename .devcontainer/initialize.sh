@@ -1,3 +1,3 @@
 #!/bin/sh
 
-apt install docker
+apt update && apt install -y docker-compose-v2
