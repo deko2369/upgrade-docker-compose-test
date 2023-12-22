@@ -2,5 +2,6 @@
     "name": "test",
     "dockerComposeFile": "./docker-compose.yaml",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "initializeCommand": ".devcontainer/initialize.sh",
     "service": "nginx"
   }
