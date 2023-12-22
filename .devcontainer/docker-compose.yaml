@@ -1,0 +1,10 @@
+services:
+  nginx:
+    image: nginx
+    ports:
+      - 8080:80
+    secrets:
+      - SECRET
+secrets:
+    SECRET:
+      environment: "SECRET"
